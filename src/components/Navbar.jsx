@@ -26,8 +26,8 @@ export default function Navbar() {
         </ul>
 
      
-        <button className="hidden md:flex items-center dm-sans w-23 gap-2 px-4 h-9 rounded-lg text-white bg-[#B8C2CE] text-sm">
-          <Search size={15} />
+        <button className="hidden md:flex items-center dm-sans w-23 gap-2 px-4 h-9 rounded-lg text-white bg-[#B8C2CE] text-xs">
+          <Search size={18} />
           Search
         </button>
      <MenuIcon

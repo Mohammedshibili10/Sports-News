@@ -46,29 +46,29 @@ export default function TrendingNews() {
 
 
           <div>
-            <h2 className="text-3xl font-semibold mb-6 dm-sans-bold">Trending News</h2>
+            <h2 className="text-3xl font-semibold mb-6 ">Trending News</h2>
             {news.map((item) => (
               <div key={item.id} className="flex gap-4 mb-6">
                 <img
-                  className="w-32 h-24 object-cover rounded-md"
+                  className="w-52 h-44 object-cover rounded-md"
                   src={item.image}
                   alt={item.title}
                 />
 
-                <div className="space-y-1">
-                  <p className="text-xs text-[#262626]/60 dm-sans">
+                <div className="space-y-3 lg:space-y-1">
+                  <p className="text-xs md:text-sm text-[#262626]/60 dm-sans">
                     {item.author} - {item.date}
                   </p>
 
-                  <h3 className="font-medium text-sm">
+                  <h3 className="font-medium md:text-md xl:text-lg">
                     {item.title}
                   </h3>
 
-                  <p className="text-xs dm-sans text-[#696868]">
+                  <p className="text-sm dm-sans text-[#696868]">
                     {item.desc}
                   </p>
 
-                  <hr className="mt-3" />
+                  <hr className="mt-10 border-[#4e4d4d]" />
                 </div>
               </div>
             ))}
@@ -80,7 +80,7 @@ export default function TrendingNews() {
               Cycling
             </span>
             <img
-              className="w-full h-105 object-cover rounded-lg"
+              className="w-full h-full xl:h-170 object-cover rounded-lg"
               src={workout}
               alt="workout"
             />

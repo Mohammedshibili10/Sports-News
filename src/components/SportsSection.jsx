@@ -96,7 +96,7 @@ export default function SportsSection() {
                             <p className="text-xs opacity-80 dm-sans">
                                 Day 5 Highlights
                             </p>
-                            <p className="text-sm font-semibold">
+                            <p className="text-md font-semibold">
                                 Baku 2023 World Taekwondo Championships
                             </p>
                         </div>
@@ -110,7 +110,7 @@ export default function SportsSection() {
                                     src={item.img}
                                     className="w-20 h-20 object-cover rounded"
                                 />
-                                <div>
+                                <div className=" space-y-2">
                                     <p className="text-xs text-gray-500 dm-sans">
                                         {item.tag} · {item.date}
                                     </p>

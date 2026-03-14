@@ -35,7 +35,7 @@ export default function Herosection() {
 
                         <div className='font-mont relative mt-10 md:mt-20 lg:top-5 xl:top-20  lg:right-15 xl:right-0 flex flex-col justify-center items-center text-center text-base md:text-lg text-[#343536] md:pl-50  lg:pl-110 gap-5'>
                             <div className='max-w-sm md:max-w-xs lg:max-w-102.5 space-y-5'>
-                                <p className=' text-sm xl:text-md font-medium' style={{ fontFamily: "'DM Sans', sans-serif" }}>
+                                <p className=' text-sm lg:text-lg xl:text-md font-medium' style={{ fontFamily: "'DM Sans', sans-serif" }}>
                                     The EuroLeague Finals Top Scorer is the individual award for the player that gained the highest points in the EuroLeague Finals
                                 </p>
 
@@ -56,8 +56,8 @@ export default function Herosection() {
                             </div>
 
                             <div className='relative -top-20 md:-top-19 left-4 md:left-2 w-52 p-2 md:w-58'>
-                                <p className='text-sm md:text-xs text-[#262626]/60'>Race98 - 03 June 2023</p>
-                                <p className='text-sm lg:text-md dm-sans '>Ethiopian runners took the top four spots.</p>
+                                <p className='text-sm md:text-[11px] text-[#262626]/60'>Race98 - 03 June 2023</p>
+                                <p className='text-sm lg:text-md dm-sans font-medium'>Ethiopian runners took the top four spots.</p>
                             </div>
                         </div>
 
@@ -68,7 +68,7 @@ export default function Herosection() {
                             </div>
 
                             <div className='relative -top-15 md:-top-20 left-4 md:left-2 p-2 w-52 md:w-58'>
-                                <p className='text-sm md:text-xs text-[#262626]/60'>INDYCAR - 03 June 2023</p>
+                                <p className='text-sm md:text-[11px] text-[#262626]/60'>INDYCAR - 03 June 2023</p>
                                 <p className='text-sm lg:text-md font-medium'style={{ fontFamily: "'DM Sans', sans-serif" }}>IndyCar Detroit:Dixon quickest in second practice</p>
                             </div>
                         </div>

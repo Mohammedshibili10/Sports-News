@@ -12,7 +12,7 @@ export default function Category() {
       transition={{ duration: 0.6 }}
       viewport={{ once: true }}
       >
-        <h2 className="text-3xl dm-sans-bold  font-bold mb-6">Category</h2>
+        <h2 className="text-3xl   font-semibold mb-6">Category</h2>
 
         <div className="flex flex-col md:flex-row gap-6">
 
