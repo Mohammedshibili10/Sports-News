@@ -47,7 +47,7 @@ export default function Herosection() {
                     </div>
 
                     <div className='relative dm-sans mt-10 lg:mt-0 lg:top-20 xl:top-25 lg:px-5'>
-                        <div className='bg-[#E1E8F0] text-[#B8C2CE] text-sm lg:text-lg font-semibold w-16 lg:w-20 h-6 md:h-7 rounded-md mb-3 text-center pt-1'>Today</div>
+                        <div className='bg-[#E1E8F0] text-[#B8C2CE] text-sm lg:text-lg font-semibold w-16 lg:w-20 h-6 lg:h-9 md:h-7 rounded-md mb-3 text-center pt-0.5 md:pt-0.5'>Today</div>
 
                         <div>
                             <div className='relative'>
