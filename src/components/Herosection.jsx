@@ -52,10 +52,10 @@ export default function Herosection() {
                         <div>
                             <div className='relative'>
                                 <img className='w-full md:w-50 lg:w-60' src={running} alt="" />
-                                <div className='rounded-md absolute bottom-0 left-0 w-full md:w-50 lg:w-58 xl:w-60 h-24 md:h-32 bg-linear-to-t from-[#dfdcdc] to-transparent'></div>
+                                <div className='rounded-md absolute bottom-0 left-0 w-full md:w-50 lg:w-53 xl:w-60 h-24 md:h-32 bg-linear-to-t from-[#dfdcdc] to-transparent'></div>
                             </div>
 
-                            <div className='relative -top-20 md:-top-19 left-4 md:left-2 w-52 p-2 md:w-58'>
+                            <div className='relative -top-20 md:-top-19 left-4 md:left-2 w-52 p-2 md:w-50 '>
                                 <p className='text-sm md:text-[11px] text-[#262626]/60'>Race98 - 03 June 2023</p>
                                 <p className='text-sm lg:text-md dm-sans font-medium'>Ethiopian runners took the top four spots.</p>
                             </div>
@@ -64,10 +64,10 @@ export default function Herosection() {
                         <div>
                             <div className='relative'>
                                 <img className='rounded-md w-full md:w-50 lg:w-60' src={car} alt="error" />
-                                <div className='rounded-md absolute bottom-0 left-0 w-full md:w-50 lg:w-58 xl:w-60 h-24 md:h-32 bg-linear-to-t from-[#dfdcdc] to-transparent'></div>
+                                <div className='rounded-md absolute bottom-0 left-0 w-full md:w-50 lg:w-53 xl:w-60 h-24 md:h-32 bg-linear-to-t from-[#dfdcdc] to-transparent'></div>
                             </div>
 
-                            <div className='relative -top-15 md:-top-20 left-4 md:left-2 p-2 w-52 md:w-58'>
+                            <div className='relative -top-20 md:-top-20 left-4 md:left-2 p-2 w-52 md:w-50'>
                                 <p className='text-sm md:text-[11px] text-[#262626]/60'>INDYCAR - 03 June 2023</p>
                                 <p className='text-sm lg:text-md font-medium'style={{ fontFamily: "'DM Sans', sans-serif" }}>IndyCar Detroit:Dixon quickest in second practice</p>
                             </div>

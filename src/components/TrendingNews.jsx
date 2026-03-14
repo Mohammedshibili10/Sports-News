@@ -46,33 +46,37 @@ export default function TrendingNews() {
 
 
           <div>
-            <h2 className="text-3xl font-semibold mb-6 ">Trending News</h2>
-            {news.map((item) => (
-              <div key={item.id} className="flex gap-4 mb-6">
-                <img
-                  className="w-52 h-44 object-cover rounded-md"
-                  src={item.image}
-                  alt={item.title}
-                />
+  <h2 className="text-2xl md:text-3xl font-semibold mb-6">Trending News</h2>
 
-                <div className="space-y-3 lg:space-y-1">
-                  <p className="text-xs md:text-sm text-[#262626]/60 dm-sans">
-                    {item.author} - {item.date}
-                  </p>
+  {news.map((item) => (
+    <div key={item.id} className="flex flex-col md:flex-row gap-4 mb-6">
+      
+      <img
+        className="w-full md:w-52 h-48 md:h-44 object-cover rounded-md"
+        src={item.image}
+        alt={item.title}
+      />
 
-                  <h3 className="font-medium md:text-md xl:text-lg">
-                    {item.title}
-                  </h3>
+      <div className="space-y-2 md:space-y-3">
+        <p className="text-xs md:text-sm text-[#262626]/60 dm-sans">
+          {item.author} - {item.date}
+        </p>
 
-                  <p className="text-sm dm-sans text-[#696868]">
-                    {item.desc}
-                  </p>
+        <h3 className="font-medium text-sm md:text-base lg:text-lg leading-snug">
+          {item.title}
+        </h3>
 
-                  <hr className="mt-10 border-[#4e4d4d]" />
-                </div>
-              </div>
-            ))}
-          </div>
+        <p className="text-xs md:text-sm dm-sans text-[#696868]">
+          {item.desc}
+        </p>
+
+        <hr className="border-[#4e4d4d] mt-3 md:mt-6" />
+      </div>
+
+    </div>
+  ))}
+</div>
+
 
 
           <div className="relative">
