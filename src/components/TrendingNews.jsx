@@ -46,7 +46,7 @@ export default function TrendingNews() {
 
 
           <div>
-            <h2 className="text-3xl font-semibold mb-6">Trending News</h2>
+            <h2 className="text-3xl font-semibold mb-6 dm-sans-bold">Trending News</h2>
             {news.map((item) => (
               <div key={item.id} className="flex gap-4 mb-6">
                 <img
@@ -56,7 +56,7 @@ export default function TrendingNews() {
                 />
 
                 <div className="space-y-1">
-                  <p className="text-xs text-[#262626]/60">
+                  <p className="text-xs text-[#262626]/60 dm-sans">
                     {item.author} - {item.date}
                   </p>
 
@@ -64,7 +64,7 @@ export default function TrendingNews() {
                     {item.title}
                   </h3>
 
-                  <p className="text-xs text-[#696868]">
+                  <p className="text-xs dm-sans text-[#696868]">
                     {item.desc}
                   </p>
 

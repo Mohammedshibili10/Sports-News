@@ -93,7 +93,7 @@ export default function SportsSection() {
                             className="w-full h-full object-cover"
                         />
                         <div className="absolute rounded-lg bottom-0 left-0 right-0 h-24 p-3 space-y-2  bg-black/20 backdrop-blur-md">
-                            <p className="text-xs opacity-80">
+                            <p className="text-xs opacity-80 dm-sans">
                                 Day 5 Highlights
                             </p>
                             <p className="text-sm font-semibold">
@@ -111,7 +111,7 @@ export default function SportsSection() {
                                     className="w-20 h-20 object-cover rounded"
                                 />
                                 <div>
-                                    <p className="text-xs text-gray-500">
+                                    <p className="text-xs text-gray-500 dm-sans">
                                         {item.tag} · {item.date}
                                     </p>
                                     <p className="text-md font-medium">

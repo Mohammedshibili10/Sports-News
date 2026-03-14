@@ -67,9 +67,9 @@ export default function SportsArticles() {
                         <h1 className='font-semibold'>{article.author}</h1>
                     </div>
                     <div className='text-justify space-y-3 '>
-                        <p className='text-xs text-[#262626]/60'>{article.date}</p>
+                        <p className='text-xs text-[#262626]/60 dm-sans'>{article.date}</p>
                         <h2 className='text-xl font-semibold'>{article.title}</h2>
-                        <p className='text-[#696868] '>{article.desc}</p>
+                        <p className='text-[#696868] dm-sans'>{article.desc}</p>
                     </div>
                     </div>
                     ))}

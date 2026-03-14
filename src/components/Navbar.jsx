@@ -16,7 +16,7 @@ export default function Navbar() {
           alt="sports news"
         />
 
-        <ul className="hidden md:flex gap-3 lg:gap-8 text-sm text-[#343536]">
+        <ul className="hidden dm-sans md:flex gap-3 lg:gap-8 text-sm text-[#343536]">
           <li className="hover:text-black cursor-pointer">Home</li>
           <li className="hover:text-black cursor-pointer">Category</li>
           <li className="hover:text-black cursor-pointer">Trending News</li>
@@ -26,7 +26,7 @@ export default function Navbar() {
         </ul>
 
      
-        <button className="hidden md:flex items-center w-23 gap-2 px-4 h-9 rounded-lg text-white bg-[#B8C2CE] text-sm">
+        <button className="hidden md:flex items-center dm-sans w-23 gap-2 px-4 h-9 rounded-lg text-white bg-[#B8C2CE] text-sm">
           <Search size={15} />
           Search
         </button>
@@ -52,7 +52,7 @@ export default function Navbar() {
   </div>
 
 
-  <ul className="flex flex-col items-center gap-5 text-xl font-semibold mt-10">
+  <ul className="flex flex-col dm-sans items-center gap-5 text-xl font-semibold mt-10">
 
     <li className="w-64 text-center py-1 border-b border-gray-300 cursor-pointer 
     hover:text-black hover:scale-105 transition">

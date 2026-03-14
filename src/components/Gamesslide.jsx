@@ -21,9 +21,9 @@ export default function Gamesslide() {
             <div className="absolute bottom-3 w-full h-full rounded-lg inset-0 bg-linear-to-t from-black/60 via-black/90 to-transparent "></div>
           </div>
           <div className='p-2 absolute bottom-1 md:bottom-10  md:left-10 space-y-1 md:space-y-2 max-w-3xl'>
-            <p className='text-white text-xs md:text-lg'>Agence France-Presse - 04 June 2023</p>
+            <p className='text-white text-xs md:text-lg dm-sans'>Agence France-Presse - 04 June 2023</p>
             <h1 className='text-sm md:text-4xl font-black text-white' >LIONAL MESSI LEAVING LIGUE 1 TEAM PARIS SAINT-GERMAIN,CLUB CONFIRMS</h1>
-            <p className='text-xs md:text-xl text-white'>The EuroLeague Finals Top Scorer is the individual award for the player that gained the highest points in the EuroLeague Finals</p>
+            <p className='text-xs md:text-xl text-white dm-sans'>The EuroLeague Finals Top Scorer is the individual award for the player that gained the highest points in the EuroLeague Finals</p>
           </div>
         </div>
         <div className='flex md:gap-10 justify-end items-center py-5'>

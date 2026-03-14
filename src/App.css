@@ -1,0 +1,10 @@
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.dm-sans-bold {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+}
