@@ -39,7 +39,7 @@ export default function Herosection() {
                                     The EuroLeague Finals Top Scorer is the individual award for the player that gained the highest points in the EuroLeague Finals
                                 </p>
 
-                                <button className='md:text-sm lg:text-lg font-semibold  w-42  lg:w-60 xl:w-70 h-11 md:h-12 lg:h-13 rounded-lg bg-[#262626] text-[#E1E8F0] hover:bg-[#E1E8F0] hover:text-[#262626]'>
+                                <button className='md:text-sm lg:text-lg font-semibold  w-42  lg:w-60 xl:w-70 h-11 md:h-12 lg:h-13 rounded-lg bg-[#262626] text-[#E1E8F0] hover:bg-[#E1E8F0] hover:text-[#262626] '  style={{ fontFamily: "'DM Sans', sans-serif" }}>
                                     Continue reading 
                                 </button>
                             </div>
@@ -47,7 +47,7 @@ export default function Herosection() {
                     </div>
 
                     <div className='relative dm-sans mt-10 lg:mt-0 lg:top-20 xl:top-25 lg:px-5'>
-                        <div className='bg-[#E1E8F0] text-[#B8C2CE] text-sm lg:text-lg font-semibold w-16 lg:w-20 h-6 lg:h-9 md:h-7 rounded-md mb-3 text-center pt-0.5 md:pt-0.5'>Today</div>
+                        <div className='bg-[#E1E8F0] text-[#B8C2CE] text-sm lg:text-lg font-semibold w-16 lg:w-20 h-6 lg:h-9 md:h-7 rounded-md mb-3 text-center pt-0.5 md:pt-0.5 'style={{ fontFamily: "'DM Sans', sans-serif" }}>Today</div>
 
                         <div>
                             <div className='relative'>
@@ -56,8 +56,8 @@ export default function Herosection() {
                             </div>
 
                             <div className='relative -top-20 md:-top-19 left-4 md:left-2 w-52 p-2 md:w-50 '>
-                                <p className='text-sm md:text-[11px] text-[#262626]/60'>Race98 - 03 June 2023</p>
-                                <p className='text-sm lg:text-md dm-sans font-medium'>Ethiopian runners took the top four spots.</p>
+                                <p className='text-sm md:text-[11px] text-[#262626]/60 ' style={{ fontFamily: "'DM Sans', sans-serif" }}>Race98 - 03 June 2023</p>
+                                <p className='text-sm lg:text-md dm-sans font-medium' style={{ fontFamily: "'DM Sans', sans-serif" }}>Ethiopian runners took the top four spots.</p>
                             </div>
                         </div>
 
@@ -67,9 +67,9 @@ export default function Herosection() {
                                 <div className='rounded-md absolute bottom-0 left-0 w-full md:w-50 lg:w-53 xl:w-60 h-24 md:h-32 bg-linear-to-t from-[#dfdcdc] to-transparent'></div>
                             </div>
 
-                            <div className='relative -top-20 md:-top-20 left-4 md:left-2 p-2 w-52 md:w-50'>
-                                <p className='text-sm md:text-[11px] text-[#262626]/60'>INDYCAR - 03 June 2023</p>
-                                <p className='text-sm lg:text-md font-medium'style={{ fontFamily: "'DM Sans', sans-serif" }}>IndyCar Detroit:Dixon quickest in second practice</p>
+                            <div className='relative -top-20 md:-top-20 left-4 md:left-2 p-2 w-52 md:w-50'style={{ fontFamily: "'DM Sans', sans-serif" }}>
+                                <p className='text-sm md:text-[11px] text-[#262626]/60' >INDYCAR - 03 June 2023</p>
+                                <p className='text-sm lg:text-md font-medium'>IndyCar Detroit:Dixon quickest in second practice</p>
                             </div>
                         </div>
 

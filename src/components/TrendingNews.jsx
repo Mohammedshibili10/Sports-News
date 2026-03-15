@@ -57,8 +57,8 @@ export default function TrendingNews() {
         alt={item.title}
       />
 
-      <div className="space-y-2 md:space-y-3">
-        <p className="text-xs md:text-sm text-[#262626]/60 dm-sans">
+      <div className="space-y-2 md:space-y-3 " style={{ fontFamily: "'DM Sans', sans-serif" }}>
+        <p className="text-xs md:text-sm text-[#262626]/60 ">
           {item.author} - {item.date}
         </p>
 
@@ -66,7 +66,7 @@ export default function TrendingNews() {
           {item.title}
         </h3>
 
-        <p className="text-xs md:text-sm dm-sans text-[#696868]">
+        <p className="text-xs md:text-sm  text-[#696868]">
           {item.desc}
         </p>
 
@@ -80,7 +80,7 @@ export default function TrendingNews() {
 
 
           <div className="relative">
-            <span className="absolute top-4 left-4 z-10 border border-white text-white px-3 py-1 rounded text-sm">
+            <span className="absolute top-4 left-4 z-10 border border-white text-white px-3 py-1 rounded text-sm" style={{ fontFamily: "'DM Sans', sans-serif" }}>
               Cycling
             </span>
             <img
@@ -90,7 +90,7 @@ export default function TrendingNews() {
             />
             <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/40 to-transparent rounded-lg"></div>
             <div className="absolute bottom-6 left-6 right-6 text-white">
-              <p className="text-sm">Debits - 03 June 2023</p>
+              <p className="text-sm"style={{ fontFamily: "'DM Sans', sans-serif" }}>Debits - 03 June 2023</p>
 
               <h1 className="text-2xl lg:text-3xl font-black mt-2">
                 DISCOVER THE MEMBER BENEFITS OF USA CYCLING!

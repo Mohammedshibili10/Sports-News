@@ -27,7 +27,7 @@ export default function Subscriptionsection() {
                         <input
                             className="border-2 border-[#262626] px-4 h-12 w-full rounded-l-md outline-none"
                             type="email"
-                            placeholder="shovon.khan0099@gmail.com"
+                            placeholder="shovon.khan0099@gmail.com"style={{ fontFamily: "'DM Sans', sans-serif" }}
                         />
 
                         <button className="bg-[#262626] w-14 h-12 rounded-r-md flex items-center justify-center">

@@ -92,8 +92,8 @@ export default function SportsSection() {
                             src={hokey}
                             className="w-full h-full object-cover"
                         />
-                        <div className="absolute rounded-lg bottom-0 left-0 right-0 h-24 p-3 space-y-2  bg-black/20 backdrop-blur-md">
-                            <p className="text-xs opacity-80 dm-sans">
+                        <div className="absolute rounded-lg bottom-0 left-0 right-0 h-24 p-3 space-y-2  bg-black/20 backdrop-blur-md" style={{ fontFamily: "'DM Sans', sans-serif" }}>
+                            <p className="text-xs opacity-80 ">
                                 Day 5 Highlights
                             </p>
                             <p className="text-md font-semibold">
@@ -102,7 +102,7 @@ export default function SportsSection() {
                         </div>
                     </div>
 
-                    <div className="bg-[#EBEEF3] p-4 rounded-lg w-full h-90 flex flex-col gap-4">
+                    <div className="bg-[#EBEEF3] p-4 rounded-lg w-full h-90 flex flex-col gap-4 "style={{ fontFamily: "'DM Sans', sans-serif" }}>
 
                         {news.map((item) => (
                             <div key={item.id} className="flex gap-3">
@@ -111,7 +111,7 @@ export default function SportsSection() {
                                     className="w-20 h-20 object-cover rounded"
                                 />
                                 <div className=" space-y-2">
-                                    <p className="text-xs text-gray-500 dm-sans">
+                                    <p className="text-xs text-gray-500 ">
                                         {item.tag} · {item.date}
                                     </p>
                                     <p className="text-md font-medium">

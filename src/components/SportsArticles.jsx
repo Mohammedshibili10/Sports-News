@@ -62,14 +62,14 @@ export default function SportsArticles() {
                         <div  className='absolute right-5 top-5  w-25 h-8 border-2 text-[#EBEEF3] text-center border-gray-500 rounded-lg'>{article.category}</div>
                         <img className='w-full h-full ' src={article.image} alt="error" />
                     </div>
-                    <div className='flex items-center gap-2'>
+                    <div className='flex items-center gap-2'style={{ fontFamily: "'DM Sans', sans-serif" }}>
                        <img className='w-13 h-13 rounded-full object-cover' src={article.avatar} alt="error" />
                         <h1 className='font-semibold'>{article.author}</h1>
                     </div>
-                    <div className='text-justify space-y-3 '>
-                        <p className='text-xs text-[#262626]/60 dm-sans'>{article.date}</p>
+                    <div className='text-justify space-y-3 'style={{ fontFamily: "'DM Sans', sans-serif" }}>
+                        <p className='text-xs text-[#262626]/60 '>{article.date}</p>
                         <h2 className='text-xl font-semibold'>{article.title}</h2>
-                        <p className='text-[#696868] dm-sans'>{article.desc}</p>
+                        <p className='text-[#696868] '>{article.desc}</p>
                     </div>
                     </div>
                     ))}

@@ -6,7 +6,7 @@ export default function Navbar() {
   const [show, setShow] = useState(false);
 
   return (
-    <div className="w-full max-w-7xl h-20 mx-auto bg-[#EBEEF3]">
+    <div className="w-full max-w-7xl h-20 mx-auto bg-[#EBEEF3] " style={{ fontFamily: "'DM Sans', sans-serif" }}>
       <div className="relative flex justify-between items-center mx-auto bg-white w-full h-20 px-5 md:px-10 ">
 
       
@@ -16,7 +16,7 @@ export default function Navbar() {
           alt="sports news"
         />
 
-        <ul className="hidden dm-sans md:flex gap-3 lg:gap-8 text-sm text-[#343536]">
+        <ul className="hidden  md:flex gap-3 lg:gap-8 text-sm text-[#343536]">
           <li className="hover:text-black cursor-pointer">Home</li>
           <li className="hover:text-black cursor-pointer">Category</li>
           <li className="hover:text-black cursor-pointer">Trending News</li>
@@ -26,7 +26,7 @@ export default function Navbar() {
         </ul>
 
      
-        <button className="hidden md:flex items-center dm-sans w-23 gap-2 px-4 h-9 rounded-lg text-white bg-[#B8C2CE] text-xs">
+        <button className="hidden md:flex items-center  w-23 gap-2 px-4 h-9 rounded-lg text-white bg-[#B8C2CE] text-xs">
           <Search size={18} />
           Search
         </button>
