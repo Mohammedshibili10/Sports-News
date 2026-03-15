@@ -135,20 +135,20 @@ export default function SportsSection() {
                 <h2 className="text-2xl font-semibold mb-6">
                     Clubs Ranking
                 </h2>
-                <div className="bg-[#EBEEF3] rounded-lg overflow-hidden">
+                <div className="bg-[#EBEEF3] rounded-lg overflow-hidden" style={{ fontFamily: "'DM Sans', sans-serif" }}>
                     <table className="w-full h-91 text-sm">
                         <thead className="bg-gray-200">
 
-                            <tr className="text-left">
+                            <tr className="text-left ">
 
                                 <th className="p-3">Club</th>
-                                <th>GP</th>
-                                <th>W</th>
-                                <th>D</th>
-                                <th>L</th>
-                                <th>F</th>
-                                <th>A</th>
-                                <th>GD</th>
+                                <th className="p-0.5 md:p-0">GP</th>
+                                <th className="p-0.5 md:p-0">W</th>
+                                <th className="p-0.5 md:p-0">D</th>
+                                <th className="p-0.5 md:p-0">L</th>
+                                <th className="p-0.5 md:p-0">F</th>
+                                <th className="p-0.5 md:p-0">A</th>
+                                <th className="p-0.5 md:p-0">GD</th>
 
                             </tr>
 
@@ -176,12 +176,12 @@ export default function SportsSection() {
                                     </td>
 
                                     <td>{club.gp}</td>
-                                    <td>{club.w}</td>
-                                    <td>{club.d}</td>
-                                    <td>{club.l}</td>
-                                    <td>{club.f}</td>
-                                    <td>{club.a}</td>
-                                    <td>{club.gd}</td>
+                                    <td  className="p-0.5 md:p-0">{club.w}</td>
+                                    <td  className="p-0.5 md:p-0">{club.d}</td>
+                                    <td  className="p-0.5 md:p-0">{club.l}</td>
+                                    <td  className="p-0.5 md:p-0">{club.f}</td>
+                                    <td  className="p-0.5 md:p-0">{club.a}</td>
+                                    <td  className="p-0.5 md:p-0">{club.gd}</td>
 
                                 </tr>
 
